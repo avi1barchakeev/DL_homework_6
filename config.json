@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "подписи к именам друзей разного пола имеют разный цвет.\nсиний цвет - друзья из Бишкека\nзеленый - друзья из фгн\nрозовый - преимущественно жители дубков + знакомые из мгу и других университетов, тусившие в дубках\nкоричневый - семья и соотечественники в москве\nоранжевые - знакомые из  еврейского кружка\nсерый - тату-мастера, случайные люди",
+    "intro": "Д/З по ЦГ. анализ друзей в социальной сети вконтакте",
+    "title": "VK Graph"
+  },
+  "legend": {
+    "edgeLabel": "общие друзья",
+    "colorLabel": "принадлежность группе",
+    "nodeLabel": "имена друзей"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
